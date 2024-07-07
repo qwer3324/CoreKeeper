@@ -230,12 +230,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa63045e7ac124b4bbf06cd5b75e2cb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentMoveSpeed: 200
-  maxHealth: 100
-  currentHealth: 100
+  currentMoveSpeed: 150
+  maxHealth: 50
+  currentHealth: 50
   dropItems:
-  - {fileID: 11400000, guid: a148f86389aa6fd41830e99a057aee77, type: 2}
-  weights: f4010000
+  - {fileID: 11400000, guid: 586ef04e12405534a9d0f9000d7e16c5, type: 2}
+  - {fileID: 11400000, guid: 5b9186191fd82f641a4f021fde7e0673, type: 2}
+  weights: f4010000f4010000
 --- !u!1 &3815255079335353055
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,7 +328,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 5
-  knockback: {x: 0, y: 0}
 --- !u!1 &7647898877122356875
 GameObject:
   m_ObjectHideFlags: 0

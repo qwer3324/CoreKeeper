@@ -9,7 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2933311096533627381}
-  m_Layer: 0
+  - component: {fileID: 8024152044682404960}
+  - component: {fileID: 494641656329410153}
+  m_Layer: 9
   m_Name: Torch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34,6 +36,31 @@ Transform:
   - {fileID: 7612131873832858585}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!210 &8024152044682404960
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2857058804583462764}
+  m_Enabled: 1
+  m_SortingLayerID: -928574059
+  m_SortingLayer: 1
+  m_SortingOrder: 1
+  m_SortAtRoot: 1
+--- !u!114 &494641656329410153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2857058804583462764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea7ca253aac29aa4db0fbfcba105324a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemData: {fileID: 11400000, guid: e611691ac1bf94e42b6e5e201e894555, type: 2}
 --- !u!1 &4953743894571978946
 GameObject:
   m_ObjectHideFlags: 0
@@ -44,7 +71,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6100111553321544737}
   - component: {fileID: 7827366579681613368}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +123,7 @@ MonoBehaviour:
   m_NormalMapQuality: 2
   m_UseNormalMap: 0
   m_ShadowIntensityEnabled: 0
-  m_ShadowIntensity: 0.75
+  m_ShadowIntensity: 0.606
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
@@ -126,7 +153,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7612131873832858585}
   - component: {fileID: 8457044918066541593}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -211,7 +238,7 @@ GameObject:
   - component: {fileID: 6892768855459221589}
   - component: {fileID: 8386909731540070799}
   - component: {fileID: 1173080741370848157}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -317,7 +344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2902911472351549921}
   - component: {fileID: 7263524252039324442}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Torch
   m_TagString: Untagged
   m_Icon: {fileID: 0}

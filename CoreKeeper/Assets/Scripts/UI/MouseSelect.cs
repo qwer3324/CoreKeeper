@@ -17,6 +17,7 @@ public class MouseSelect : MonoBehaviour
     public GameObject woodStoolPrefab;
     public GameObject cookingPotPrefab;
     public GameObject magicMirrorPrefab;
+    public GameObject torchPrefab;
 
     private void Awake()
     {
@@ -76,6 +77,9 @@ public class MouseSelect : MonoBehaviour
                 break;
             case "Magic Mirror":
                 Instantiate(magicMirrorPrefab, mousePosition, Quaternion.identity);
+                break;
+            case "Torch":
+                Instantiate(torchPrefab, mousePosition, Quaternion.identity);
                 break;
         }
 
