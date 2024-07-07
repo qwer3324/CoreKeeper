@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5105300b771429f4ab56d241d6516634, type: 3}
+  m_Name: Appear_RadicalRabbitEars
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: -680208905, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: -405112366, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: -1413206962, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: 495573359, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: 1460440434, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: -1180503038, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: 1540590403, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: -1705947659, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: 955437252, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: 1314521225, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: -1142587607, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: 40971736, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: -385298907, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: -200162756, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: -1872068668, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: 764460741, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: -1666926301, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: -864574969, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: 1901831797, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: -1899136477, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: 1572969831, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: 611143526, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: -1645458104, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: 932256294, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: -2059809320, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: 787244725, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: 919715056, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: -1839501457, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: -1552782888, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: 522406276, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: 1408828071, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: -7685882, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: -467695454, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: 1223975429, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: -448516065, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: 820121112, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: -1125253928, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: -930073469, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  - {fileID: -1230741338, guid: a17b61db293f4f2499ca538312493030, type: 3}
+  helmSprites: []
+  hasShade: 0
+  hairShadeSprites: []
+  hideEyes: 0

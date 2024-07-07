@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3976479155780907319
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
+  m_Name: Clay_WallSide (Override)
+  m_EditorClassIdentifier: 
+  m_DefaultSprite: {fileID: 74524466, guid: 59ff11c5db740624eb5b9112f6494998, type: 3}
+  m_DefaultGameObject: {fileID: 0}
+  m_DefaultColliderType: 1
+  m_TilingRules:
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: -1360720030, guid: 59ff11c5db740624eb5b9112f6494998, type: 3}
+    - {fileID: 652610626, guid: 59ff11c5db740624eb5b9112f6494998, type: 3}
+    - {fileID: 309573972, guid: 59ff11c5db740624eb5b9112f6494998, type: 3}
+    - {fileID: 74524466, guid: 59ff11c5db740624eb5b9112f6494998, type: 3}
+    - {fileID: 1025499117, guid: 59ff11c5db740624eb5b9112f6494998, type: 3}
+    - {fileID: 2018019866, guid: 59ff11c5db740624eb5b9112f6494998, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 1
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: 
+    m_NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    m_RuleTransform: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c779848d9dd029409ca676b49e10a18, type: 3}
+  m_Name: Grass_Wall
+  m_EditorClassIdentifier: 
+  m_Tile: {fileID: 11400000, guid: 85455e27fc5c609458e8c06e8ee9af0c, type: 2}
+  m_Sprites:
+  - m_OriginalSprite: {fileID: 214633038, guid: e3a2661792221d04f93ec3c7bb555708, type: 3}
+    m_OverrideSprite: {fileID: 74524466, guid: 59ff11c5db740624eb5b9112f6494998, type: 3}
+  - m_OriginalSprite: {fileID: 356756567, guid: e3a2661792221d04f93ec3c7bb555708, type: 3}
+    m_OverrideSprite: {fileID: -1360720030, guid: 59ff11c5db740624eb5b9112f6494998, type: 3}
+  - m_OriginalSprite: {fileID: -2066301729, guid: e3a2661792221d04f93ec3c7bb555708, type: 3}
+    m_OverrideSprite: {fileID: 652610626, guid: 59ff11c5db740624eb5b9112f6494998, type: 3}
+  - m_OriginalSprite: {fileID: 200198371, guid: e3a2661792221d04f93ec3c7bb555708, type: 3}
+    m_OverrideSprite: {fileID: 309573972, guid: 59ff11c5db740624eb5b9112f6494998, type: 3}
+  - m_OriginalSprite: {fileID: 1651771662, guid: e3a2661792221d04f93ec3c7bb555708, type: 3}
+    m_OverrideSprite: {fileID: 1025499117, guid: 59ff11c5db740624eb5b9112f6494998, type: 3}
+  - m_OriginalSprite: {fileID: 1247272587, guid: e3a2661792221d04f93ec3c7bb555708, type: 3}
+    m_OverrideSprite: {fileID: 2018019866, guid: 59ff11c5db740624eb5b9112f6494998, type: 3}
+  m_GameObjects: []
+  m_InstanceTile: {fileID: -3976479155780907319}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac6a0fbbdda6ad24f856fab8d8e7dbbe, type: 3}
+  m_Name: Appear_SlimeSword
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 1849556776, guid: eb119cb1b18b15547a82640f6ac86c77, type: 3}
+  - {fileID: 988640995, guid: eb119cb1b18b15547a82640f6ac86c77, type: 3}
+  - {fileID: 1968622619, guid: eb119cb1b18b15547a82640f6ac86c77, type: 3}
+  - {fileID: 401794720, guid: eb119cb1b18b15547a82640f6ac86c77, type: 3}
+  - {fileID: 312220531, guid: eb119cb1b18b15547a82640f6ac86c77, type: 3}
+  - {fileID: -511622801, guid: eb119cb1b18b15547a82640f6ac86c77, type: 3}
+  - {fileID: -1602310705, guid: eb119cb1b18b15547a82640f6ac86c77, type: 3}

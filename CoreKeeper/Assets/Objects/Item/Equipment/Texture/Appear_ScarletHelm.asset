@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5105300b771429f4ab56d241d6516634, type: 3}
+  m_Name: Appear_ScarletHelm
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 508623123, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: -352739121, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: -443300470, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: 1532366724, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: -742497354, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: -1513764022, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: 58772384, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: 1769462225, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: 23488397, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: -1240313694, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: -502244424, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: -31628451, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: -1226335406, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: -1621523944, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: 1075266990, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: 944196070, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: -1529388464, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: -265040008, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: -842199086, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: -1344421524, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: -151696775, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: 1422649289, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: -342055133, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: 671207764, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: -1895834396, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: -9876005, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: 34201859, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: -328396827, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: -394581062, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: 495425749, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: -1767891584, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: 1306788293, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: -1821791834, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: 973710587, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: 2127652831, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: 1918316159, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: -83553469, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: 13071613, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  - {fileID: 688228607, guid: 20e36635d71fab74fabd9611dca3e981, type: 3}
+  helmSprites: []
+  hasShade: 0
+  hairShadeSprites: []
+  hideEyes: 1

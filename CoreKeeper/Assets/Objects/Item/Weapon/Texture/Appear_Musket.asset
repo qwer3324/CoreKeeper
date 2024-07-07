@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac6a0fbbdda6ad24f856fab8d8e7dbbe, type: 3}
+  m_Name: Appear_Musket
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 1722922318, guid: f84f73fe7752de54791f98c273e8d633, type: 3}
+  - {fileID: 1113555391, guid: f84f73fe7752de54791f98c273e8d633, type: 3}
+  - {fileID: -989975202, guid: f84f73fe7752de54791f98c273e8d633, type: 3}
+  - {fileID: 2050406290, guid: f84f73fe7752de54791f98c273e8d633, type: 3}
+  - {fileID: -1453227556, guid: f84f73fe7752de54791f98c273e8d633, type: 3}
+  - {fileID: -439297419, guid: f84f73fe7752de54791f98c273e8d633, type: 3}
+  - {fileID: -977787276, guid: f84f73fe7752de54791f98c273e8d633, type: 3}
+  - {fileID: 1511591781, guid: f84f73fe7752de54791f98c273e8d633, type: 3}
+  - {fileID: -967297900, guid: f84f73fe7752de54791f98c273e8d633, type: 3}
+  - {fileID: 672506797, guid: f84f73fe7752de54791f98c273e8d633, type: 3}
+  - {fileID: -1729639173, guid: f84f73fe7752de54791f98c273e8d633, type: 3}
+  - {fileID: -22069546, guid: f84f73fe7752de54791f98c273e8d633, type: 3}
+  - {fileID: 324255760, guid: f84f73fe7752de54791f98c273e8d633, type: 3}
+  - {fileID: 923963293, guid: f84f73fe7752de54791f98c273e8d633, type: 3}
+  - {fileID: 1290217556, guid: f84f73fe7752de54791f98c273e8d633, type: 3}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64f51addea76d9644bd427042ed52fae, type: 3}
+  m_Name: Musket
+  m_EditorClassIdentifier: 
+  type: 5
+  stackable: 0
+  icon: {fileID: -789766750, guid: f84f73fe7752de54791f98c273e8d633, type: 3}
+  dropIcon: {fileID: -789766750, guid: f84f73fe7752de54791f98c273e8d633, type: 3}
+  description: Can't argue much with a handful of lead coming right at you.
+  appearance: {fileID: 11400000, guid: e9bc1db0ddd30774b9e52f2b45dcb7e2, type: 2}
+  info:
+    id: 21
+    name: Musket
+    amount: 0
+    abilities:
+    - type: 5
+      value: 0
+      min: 207
+      max: 253

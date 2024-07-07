@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac6a0fbbdda6ad24f856fab8d8e7dbbe, type: 3}
+  m_Name: Appear_WoodBow
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 1863800499, guid: f3bd6f9902376d1428d6b4eaeab820a8, type: 3}
+  - {fileID: 1479065694, guid: f3bd6f9902376d1428d6b4eaeab820a8, type: 3}
+  - {fileID: -135679229, guid: f3bd6f9902376d1428d6b4eaeab820a8, type: 3}
+  - {fileID: 2093322552, guid: f3bd6f9902376d1428d6b4eaeab820a8, type: 3}
+  - {fileID: -536610506, guid: f3bd6f9902376d1428d6b4eaeab820a8, type: 3}
+  - {fileID: 465750094, guid: f3bd6f9902376d1428d6b4eaeab820a8, type: 3}
+  - {fileID: 809029794, guid: f3bd6f9902376d1428d6b4eaeab820a8, type: 3}
+  - {fileID: 1509631962, guid: f3bd6f9902376d1428d6b4eaeab820a8, type: 3}
+  - {fileID: -676955554, guid: f3bd6f9902376d1428d6b4eaeab820a8, type: 3}
+  - {fileID: 16457031, guid: f3bd6f9902376d1428d6b4eaeab820a8, type: 3}
+  - {fileID: -1146553462, guid: f3bd6f9902376d1428d6b4eaeab820a8, type: 3}
+  - {fileID: 872333801, guid: f3bd6f9902376d1428d6b4eaeab820a8, type: 3}
+  - {fileID: -229124020, guid: f3bd6f9902376d1428d6b4eaeab820a8, type: 3}
+  - {fileID: 1741718809, guid: f3bd6f9902376d1428d6b4eaeab820a8, type: 3}
+  - {fileID: 72252211, guid: f3bd6f9902376d1428d6b4eaeab820a8, type: 3}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64f51addea76d9644bd427042ed52fae, type: 3}
+  m_Name: BoneRing
+  m_EditorClassIdentifier: 
+  type: 4
+  stackable: 0
+  icon: {fileID: -1894069646, guid: 438ba0d6464fd4d49ba66eb24dbb2e6b, type: 3}
+  dropIcon: {fileID: 542662266, guid: 438ba0d6464fd4d49ba66eb24dbb2e6b, type: 3}
+  description: A prehistoric, crude ring made from bone. Rings like these have been
+    discovered in early human graves.
+  appearance: {fileID: 0}
+  info:
+    id: -1
+    name: Bone Ring
+    amount: 0
+    abilities:
+    - type: 1
+      value: 0
+      min: 10
+      max: 15
+    - type: 2
+      value: 0
+      min: 6
+      max: 8
