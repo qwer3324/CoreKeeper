@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PoisonSlime
   m_EditorClassIdentifier: 
   type: 11
-  stackable: 0
+  stackable: 1
   icon: {fileID: -144252388, guid: e4cbd86b87ee35941bebeb95a42fd7f4, type: 3}
   dropIcon: {fileID: 469165549, guid: e4cbd86b87ee35941bebeb95a42fd7f4, type: 3}
   description: A purple blob of toxic slime. Can be further processed.

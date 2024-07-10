@@ -11,8 +11,8 @@ namespace CrabState
         private float idleMaxTime = 10f;
         private float idleMinTime = 3f;
         private float idleCountdown = 0f;
-        private float minRange = 3f;       //  이동 반경
-        private float maxRange = 6f;
+        private float minRange = 2f;       //  이동 반경
+        private float maxRange = 4f;
 
         private bool isArrive = false;      //  목표 지점에 도착했는지
         private Vector2 targetPos;          //  목표 지점

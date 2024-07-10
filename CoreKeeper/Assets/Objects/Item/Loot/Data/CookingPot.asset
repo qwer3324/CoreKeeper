@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64f51addea76d9644bd427042ed52fae, type: 3}
   m_Name: CookingPot
   m_EditorClassIdentifier: 
-  type: 0
+  type: 9
   stackable: 0
   icon: {fileID: 1868964973, guid: e4cbd86b87ee35941bebeb95a42fd7f4, type: 3}
   dropIcon: {fileID: -246790526, guid: e4cbd86b87ee35941bebeb95a42fd7f4, type: 3}

@@ -20,7 +20,7 @@ MonoBehaviour:
   appearance: {fileID: 11400000, guid: bc95ec2fc03cafd49b4556c86557f8ec, type: 2}
   info:
     id: 26
-    name: 
+    name: Slime Sword
     amount: 0
     abilities:
     - type: 4

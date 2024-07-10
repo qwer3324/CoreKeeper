@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7264048810417390336
 Transform:
   m_ObjectHideFlags: 0
@@ -122,7 +122,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6451865187295505802
 Transform:
   m_ObjectHideFlags: 0
@@ -178,7 +178,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -928574059
   m_SortingLayer: 1
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 4410521c1c35b7d499f47d89cf59b991, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -204,6 +204,7 @@ GameObject:
   - component: {fileID: 1110256399781878498}
   - component: {fileID: 6787852245461002722}
   - component: {fileID: 1895036394170847598}
+  - component: {fileID: 8119278836460426595}
   m_Layer: 15
   m_Name: CookingPot
   m_TagString: Object
@@ -370,6 +371,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!210 &8119278836460426595
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5132836427746381061}
+  m_Enabled: 1
+  m_SortingLayerID: -928574059
+  m_SortingLayer: 1
+  m_SortingOrder: 1
+  m_SortAtRoot: 1
 --- !u!1 &5145084849832623986
 GameObject:
   m_ObjectHideFlags: 0

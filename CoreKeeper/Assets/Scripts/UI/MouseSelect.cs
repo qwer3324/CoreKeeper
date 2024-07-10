@@ -18,6 +18,7 @@ public class MouseSelect : MonoBehaviour
     public GameObject cookingPotPrefab;
     public GameObject magicMirrorPrefab;
     public GameObject torchPrefab;
+    public GameObject anvilPrefab;
 
     private void Awake()
     {
@@ -81,8 +82,10 @@ public class MouseSelect : MonoBehaviour
             case "Torch":
                 Instantiate(torchPrefab, mousePosition, Quaternion.identity);
                 break;
+            case "Anvil":
+                Instantiate(anvilPrefab, mousePosition, Quaternion.identity);
+                break;
         }
-
         UIManager.Instance.ChangeUiMode(UIManager.UI_Mode.Normal);
         Inventory.Instance.RemoveItem(placedItem, placedItemIndex);
         gameObject.SetActive(false);

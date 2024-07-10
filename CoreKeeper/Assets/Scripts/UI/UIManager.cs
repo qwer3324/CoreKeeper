@@ -11,7 +11,7 @@ public class UIManager : SingletonBehaviour<UIManager>
     #endregion
 
     public enum UI_Type { Equipment, Inventory, Crafting, Information, Status, Description ,Health, Hunger, MouseSelect }
-    public enum UI_Mode { Normal, Inventory, Workbench, Cooking, Placed, Customizing }
+    public enum UI_Mode { Normal, Inventory, Workbench, Cooking, Placed, Customizing, Anvil }
 
     private UI_Mode PrevMode = UI_Mode.Normal;
     public UI_Mode CurrentMode = UI_Mode.Normal;
@@ -45,6 +45,7 @@ public class UIManager : SingletonBehaviour<UIManager>
     [Tooltip("작업대 UI"), SerializeField, Space(10)] private GameObject workbenchUI;
     [Tooltip("요리 UI"), SerializeField] private GameObject cookingUI;
     [Tooltip("커스터마이징 UI"), SerializeField] private GameObject customizingUI;
+    [Tooltip("모루 UI"), SerializeField] private GameObject anvilUI;
 
     [Header("Bar UI")]
     [Tooltip("체력 UI"), SerializeField] private GameObject healthBarUI;
@@ -226,7 +227,10 @@ public class UIManager : SingletonBehaviour<UIManager>
             case UI_Mode.Customizing:
                 customizingUI.SetActive(false);
                 break;
-
+            case UI_Mode.Anvil:
+                anvilUI.SetActive(false);
+                inventoryUI.SetActive(false);
+                break;
         }
         if (PrevMode == _mode)
         {
@@ -262,6 +266,10 @@ public class UIManager : SingletonBehaviour<UIManager>
                 break;
             case UI_Mode.Customizing:
                 customizingUI.SetActive(true);
+                break;
+            case UI_Mode.Anvil:
+                 anvilUI.SetActive(true);
+                inventoryUI.SetActive(true);
                 break;
         }
     }

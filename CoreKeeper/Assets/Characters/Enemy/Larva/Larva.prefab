@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75b700cc0337fe84d965e781c3d7580e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentMoveSpeed: 50
+  currentMoveSpeed: 100
   maxHealth: 100
   currentHealth: 100
   dropItems: []
@@ -331,7 +331,7 @@ GameObject:
   - component: {fileID: 373399397936862125}
   - component: {fileID: 3275990768172553897}
   m_Layer: 12
-  m_Name: Hitbox
+  m_Name: HitBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
