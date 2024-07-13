@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac6a0fbbdda6ad24f856fab8d8e7dbbe, type: 3}
+  m_Name: Appear_Slingshot
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 905485522, guid: 5aa3e2d9730e5c64789a776a0af125c6, type: 3}
+  - {fileID: 774905453, guid: 5aa3e2d9730e5c64789a776a0af125c6, type: 3}
+  - {fileID: 1667225118, guid: 5aa3e2d9730e5c64789a776a0af125c6, type: 3}
+  - {fileID: 505465565, guid: 5aa3e2d9730e5c64789a776a0af125c6, type: 3}
+  - {fileID: -491131974, guid: 5aa3e2d9730e5c64789a776a0af125c6, type: 3}
+  - {fileID: 849131998, guid: 5aa3e2d9730e5c64789a776a0af125c6, type: 3}
+  - {fileID: 935350157, guid: 5aa3e2d9730e5c64789a776a0af125c6, type: 3}
+  - {fileID: 690930935, guid: 5aa3e2d9730e5c64789a776a0af125c6, type: 3}
+  - {fileID: -1327176751, guid: 5aa3e2d9730e5c64789a776a0af125c6, type: 3}
+  - {fileID: -2023095327, guid: 5aa3e2d9730e5c64789a776a0af125c6, type: 3}
+  - {fileID: 46543704, guid: 5aa3e2d9730e5c64789a776a0af125c6, type: 3}
+  - {fileID: -1130627969, guid: 5aa3e2d9730e5c64789a776a0af125c6, type: 3}
+  - {fileID: -441816967, guid: 5aa3e2d9730e5c64789a776a0af125c6, type: 3}
+  - {fileID: -358037414, guid: 5aa3e2d9730e5c64789a776a0af125c6, type: 3}
+  - {fileID: 1573471164, guid: 5aa3e2d9730e5c64789a776a0af125c6, type: 3}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64f51addea76d9644bd427042ed52fae, type: 3}
+  m_Name: BronzePants
+  m_EditorClassIdentifier: 
+  type: 2
+  stackable: 0
+  icon: {fileID: 1355373629, guid: 438ba0d6464fd4d49ba66eb24dbb2e6b, type: 3}
+  dropIcon: {fileID: -66977233, guid: 438ba0d6464fd4d49ba66eb24dbb2e6b, type: 3}
+  description: "\rSome bronze for the shin."
+  appearance: {fileID: 11400000, guid: 47676651be2df7a44a34a34d7fe3aa4b, type: 2}
+  info:
+    id: -1
+    name: Bronze Pants
+    amount: 0
+    abilities:
+    - type: 0
+      value: 0
+      min: 14
+      max: 52
+    - type: 1
+      value: 0
+      min: 8
+      max: 28
+    - type: 5
+      value: 0
+      min: 6
+      max: 18

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5105300b771429f4ab56d241d6516634, type: 3}
+  m_Name: Appear_IronHelm
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 1702044743, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: 1403504163, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: -688153730, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: -210645530, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: 1749352723, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: 1449862194, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: -2106534783, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: -1470137400, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: 311859081, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: -1706667431, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: 1106787608, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: -135870214, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: 3313897, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: -1726733684, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: 1382272820, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: 934843689, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: -589732644, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: 1599283291, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: -615404355, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: -1044457103, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: 1156675970, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: 1522596706, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: 1365413840, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: 1802725150, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: 1375080386, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: 630864013, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: -1266199599, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: 1008600951, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: -1517895849, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: -1639274438, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: -200210613, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: 2131996013, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: -1149653886, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: -1107752451, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: 603524638, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: -1538137563, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: 1649509874, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: -169351317, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  - {fileID: -2087584855, guid: c1a1ac73ea0ed0449b76f211a6d4f580, type: 3}
+  helmSprites: []
+  hasShade: 0
+  hairShadeSprites: []
+  hideEyes: 1

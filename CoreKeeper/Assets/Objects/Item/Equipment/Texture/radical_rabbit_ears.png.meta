@@ -1,0 +1,1011 @@
+fileFormatVersion: 2
+guid: a17b61db293f4f2499ca538312493030
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: radical_rabbit_ears_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316b85d398102f741b868641c1807051
+      internalID: -680208905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 130
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d692858e4d1e54ba52d11b782c7358
+      internalID: -405112366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_2
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 130
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd851ce0eec0e04438719773c140a7a0
+      internalID: -1413206962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb1e13f9d2f23b42a92ed5faf27631b
+      internalID: 495573359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_4
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 104
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d5c68ed0798234f958849e0183c212
+      internalID: 1460440434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_5
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 104
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74959f8c0bb4f684d8bbee5683973167
+      internalID: -1180503038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_6
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 104
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3c6a3703b26de428eab7cbe4db31b1
+      internalID: 1540590403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_7
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 104
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc8b06186facb14ba2b8a471b2c5b66
+      internalID: -1705947659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_8
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 104
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ea5feab98b9964cb32bcba4342e971
+      internalID: 955437252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 78
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435fbe8bf918e2f4ebadc6e14c87d991
+      internalID: 1314521225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_10
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 78
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7101e9dca471734e81a819af31a7578
+      internalID: -1142587607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_11
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 78
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1827a5dcbac458443a7cac071309168d
+      internalID: 40971736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_12
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 78
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a0ba9c5c3d7ce42871d39bef32dec0
+      internalID: -385298907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_13
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 78
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3990110a3fed9c24290f84302579f161
+      internalID: -200162756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_14
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 78
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5941505687b58a2489a292aada0b708e
+      internalID: -1872068668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b34fccb7e568bc4c88c9d9f6ffdbb00
+      internalID: 764460741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_16
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 52
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dde55983e9179e4c88915ec492e3443
+      internalID: -1666926301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_17
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 52
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a04a83c745e9441823b84f608e033d
+      internalID: -864574969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_18
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 52
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c7972bbe40dec4d9a3d3cb4e7c42f9
+      internalID: 1901831797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_19
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 52
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784c642cd4efec246ab8dde8b754de7b
+      internalID: -1899136477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_20
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 52
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06dc16f3f0e4a4f418a84941dd648d5d
+      internalID: 1572969831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 26
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3087d30e66a2be94cb7c2743bd483ef9
+      internalID: 611143526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_22
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 26
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a334268e713a09489a4148e6e8fc369
+      internalID: -1645458104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_23
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 26
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f684d2e1d9ef1d49888c5ba8f5074cd
+      internalID: 932256294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_24
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 26
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a08e6e4c36525a489e6ed729d97f08a
+      internalID: -2059809320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_25
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 26
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c23ac39e0856794cb55d190aa80ce53
+      internalID: 787244725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_26
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 26
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a6e2e7cdad1fd45b12fe121f1c62af
+      internalID: 919715056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_27
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 26
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5111e56b613df244aeeed40326444b9
+      internalID: -1839501457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_28
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 26
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a700a108b96095e47a8fe3962d4075a8
+      internalID: -1552782888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_29
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 26
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1f2c16319d60943afdb560f02d8b3d
+      internalID: 522406276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9fdb9415c64bc4c9c2a6ad23df2b1e
+      internalID: 1408828071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_31
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766d299902b06bb4e885a2c2b1b3e1cd
+      internalID: -7685882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_32
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3837b2da1ea6e614fa0f3118f00294de
+      internalID: -467695454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_33
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a785765d674edd48917f866c598ced0
+      internalID: 1223975429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_34
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37fa8baf281ca814093796f325438415
+      internalID: -448516065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_35
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046fb9a7d75d133438d6e8c4a4542191
+      internalID: 820121112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_36
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c518bc27db1de4848a19a9d49281c61b
+      internalID: -1125253928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_37
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70c0e1da4de08441875e32379bdd414
+      internalID: -930073469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radical_rabbit_ears_38
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4a292a8c64c43429466a82fe3e4d52
+      internalID: -1230741338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      radical_rabbit_ears_0: -680208905
+      radical_rabbit_ears_1: -405112366
+      radical_rabbit_ears_10: -1142587607
+      radical_rabbit_ears_11: 40971736
+      radical_rabbit_ears_12: -385298907
+      radical_rabbit_ears_13: -200162756
+      radical_rabbit_ears_14: -1872068668
+      radical_rabbit_ears_15: 764460741
+      radical_rabbit_ears_16: -1666926301
+      radical_rabbit_ears_17: -864574969
+      radical_rabbit_ears_18: 1901831797
+      radical_rabbit_ears_19: -1899136477
+      radical_rabbit_ears_2: -1413206962
+      radical_rabbit_ears_20: 1572969831
+      radical_rabbit_ears_21: 611143526
+      radical_rabbit_ears_22: -1645458104
+      radical_rabbit_ears_23: 932256294
+      radical_rabbit_ears_24: -2059809320
+      radical_rabbit_ears_25: 787244725
+      radical_rabbit_ears_26: 919715056
+      radical_rabbit_ears_27: -1839501457
+      radical_rabbit_ears_28: -1552782888
+      radical_rabbit_ears_29: 522406276
+      radical_rabbit_ears_3: 495573359
+      radical_rabbit_ears_30: 1408828071
+      radical_rabbit_ears_31: -7685882
+      radical_rabbit_ears_32: -467695454
+      radical_rabbit_ears_33: 1223975429
+      radical_rabbit_ears_34: -448516065
+      radical_rabbit_ears_35: 820121112
+      radical_rabbit_ears_36: -1125253928
+      radical_rabbit_ears_37: -930073469
+      radical_rabbit_ears_38: -1230741338
+      radical_rabbit_ears_4: 1460440434
+      radical_rabbit_ears_5: -1180503038
+      radical_rabbit_ears_6: 1540590403
+      radical_rabbit_ears_7: -1705947659
+      radical_rabbit_ears_8: 955437252
+      radical_rabbit_ears_9: 1314521225
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

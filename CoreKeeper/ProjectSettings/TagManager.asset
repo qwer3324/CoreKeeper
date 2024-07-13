@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Shadow
+  - Canvas
+  - Object
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - Player
+  - Enemy
+  - Terrian
+  - Item
+  - PlayerHitBox
+  - EnemyHitBox
+  - Object
+  - Interaction
+  - Interactive
+  - FootStep
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 415434745
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Object
+    uniqueID: 3366393237
+    locked: 0
+  - name: Player
+    uniqueID: 2244138655
+    locked: 0
+  - name: Effect
+    uniqueID: 2764520061
+    locked: 0
+  - name: UI
+    uniqueID: 3582434663
+    locked: 0

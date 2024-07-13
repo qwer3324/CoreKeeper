@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64f51addea76d9644bd427042ed52fae, type: 3}
+  m_Name: Scholar'sCloak
+  m_EditorClassIdentifier: 
+  type: 1
+  stackable: 0
+  icon: {fileID: 471250944, guid: 438ba0d6464fd4d49ba66eb24dbb2e6b, type: 3}
+  dropIcon: {fileID: 831358297, guid: 438ba0d6464fd4d49ba66eb24dbb2e6b, type: 3}
+  description: A magically-imbued piece of cloth, worn by caveling scholars. Wearing
+    it you feel in tune with the ancients.
+  appearance: {fileID: 11400000, guid: dcb6062d32b8b604c89590bc436bd135, type: 2}
+  info:
+    id: -1
+    name: Scholar's Cloak
+    amount: 0
+    abilities:
+    - type: 0
+      value: 0
+      min: 46
+      max: 63
+    - type: 1
+      value: 0
+      min: 12
+      max: 16
+    - type: 2
+      value: 0
+      min: 4
+      max: 6
+    - type: 3
+      value: 0
+      min: 4
+      max: 6

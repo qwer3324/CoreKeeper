@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64f51addea76d9644bd427042ed52fae, type: 3}
+  m_Name: GreaterHealingPotion
+  m_EditorClassIdentifier: 
+  type: 7
+  stackable: 1
+  icon: {fileID: -1630183360, guid: da010c77d83c23f40859c6e51fb783bc, type: 3}
+  dropIcon: {fileID: -562184739, guid: da010c77d83c23f40859c6e51fb783bc, type: 3}
+  description: '
+
+    A much healthier elixir that heals instantly. Also tastes
+    great.'
+  appearance: {fileID: 0}
+  info:
+    id: 27
+    name: Greater Healing Potion
+    amount: 0
+    abilities:
+    - type: 6
+      value: 0
+      min: 60
+      max: 60

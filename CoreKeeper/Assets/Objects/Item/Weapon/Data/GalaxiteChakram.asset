@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64f51addea76d9644bd427042ed52fae, type: 3}
+  m_Name: GalaxiteChakram
+  m_EditorClassIdentifier: 
+  type: 5
+  stackable: 0
+  icon: {fileID: -962116386, guid: d85f6f3f4509ac14082e1b096857f99f, type: 3}
+  dropIcon: {fileID: 1598941471, guid: e4cbd86b87ee35941bebeb95a42fd7f4, type: 3}
+  description: This unique throwing weapon requires finesse and dexterity to be used
+    to its full potential.
+  appearance: {fileID: 11400000, guid: 0843dd0008aad314fa753e4bb5591196, type: 2}
+  info:
+    id: 9
+    name: Galaxite Chakram
+    amount: 0
+    abilities:
+    - type: 5
+      value: 0
+      min: 108
+      max: 132

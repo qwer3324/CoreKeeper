@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5105300b771429f4ab56d241d6516634, type: 3}
+  m_Name: Appear_BronzeHelm
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 854654280, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: 1380809764, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: 196210490, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: -974097993, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: -107842903, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: 860203226, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: -1229936786, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: -847895513, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: -365197339, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: 1778448366, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: 1270287593, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: -48588544, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: -583135022, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: -1116153370, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: -1328264782, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: 2068872836, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: -620804453, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: -468650770, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: 1227310746, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: 1315147125, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: -1012713708, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: 1639309754, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: 1681631720, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: -503437631, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: 919024771, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: 785277502, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: 311353568, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: 89006943, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: -799211286, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: 2026074310, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: 2122473423, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: 1943154864, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: -546562477, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: 136507286, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: -1731603732, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: 1677177086, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: -520887366, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: 835023681, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  - {fileID: -123686283, guid: f3efc395dc0f32e47af116bf774b0d40, type: 3}
+  helmSprites: []
+  hasShade: 0
+  hairShadeSprites: []
+  hideEyes: 1
