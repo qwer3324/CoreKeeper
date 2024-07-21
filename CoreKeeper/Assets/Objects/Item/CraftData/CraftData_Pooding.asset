@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: CraftData_Pooding
   m_EditorClassIdentifier: 
   itemID: 15
-  materialsID: 00000000
+  materialsID: 04000000
   materialsAmount: 01000000

@@ -23,10 +23,6 @@ MonoBehaviour:
     name: Bomb Pepper
     amount: 0
     abilities:
-    - type: 6
-      value: 0
-      min: -10
-      max: -10
     - type: 8
       value: 0
       min: 5

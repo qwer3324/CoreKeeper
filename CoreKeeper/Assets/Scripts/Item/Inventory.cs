@@ -192,7 +192,8 @@ public class Inventory : SingletonBehaviour<Inventory>
             switch (_item.abilities[i].type)
             {
                 case AttributeType.Health:
-                    player.Heal(_item.abilities[i].value);
+
+                        player.Heal(_item.abilities[i].value);
                     break;
                 case AttributeType.Food:
                     player.CurrentHunger += _item.abilities[i].value;
@@ -261,5 +262,50 @@ public class Inventory : SingletonBehaviour<Inventory>
         OnItemChanged?.Invoke();
 
         return isSuccess;
+    }
+
+    private void Update()
+    {
+        //  ġƮ
+        if(Input.GetKeyDown(KeyCode.Keypad0))
+        {
+            AddItem(itemDB.Datas[3].CreateItem());
+        }
+        else if (Input.GetKeyDown(KeyCode.Keypad1))
+        {
+            AddItem(itemDB.Datas[4].CreateItem());
+        }
+        else if (Input.GetKeyDown(KeyCode.Keypad2))
+        {
+            AddItem(itemDB.Datas[8].CreateItem());
+        }
+        else if (Input.GetKeyDown(KeyCode.Keypad3))
+        {
+            AddItem(itemDB.Datas[9].CreateItem());
+        }
+        else if (Input.GetKeyDown(KeyCode.Keypad4))
+        {
+            AddItem(itemDB.Datas[10].CreateItem());
+        }
+        else if (Input.GetKeyDown(KeyCode.Keypad5))
+        {
+            AddItem(itemDB.Datas[14].CreateItem());
+        }
+        else if (Input.GetKeyDown(KeyCode.Keypad6))
+        {
+            AddItem(itemDB.Datas[41].CreateItem());
+        }
+        else if (Input.GetKeyDown(KeyCode.Keypad7))
+        {
+            AddItem(itemDB.Datas[26].CreateItem());
+        }
+        else if (Input.GetKeyDown(KeyCode.Keypad8))
+        {
+            AddItem(itemDB.Datas[10].CreateItem());
+        }
+        else if (Input.GetKeyDown(KeyCode.Keypad9))
+        {
+            AddItem(itemDB.Datas[10].CreateItem());
+        }
     }
 }

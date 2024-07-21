@@ -36,7 +36,10 @@ public class MouseSelect : MonoBehaviour
         }
         else
         {
-            RaycastHit2D hit = Physics2D.Raycast(mousePosition, Vector2.zero);
+            //int layerMask = ~0 & ~((1 << 6) | (1 << 14));
+            int layerMask = (1 << 4) | (1 << 7) | (1 << 8) | (1 << 9) | (1 << 13) | (1 << 14);
+
+            RaycastHit2D hit = Physics2D.Raycast(mousePosition, Vector2.zero, 5f, layerMask);
 
             if (hit.collider == null)
             {

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BloatOat
   m_EditorClassIdentifier: 
   type: 6
-  stackable: 0
+  stackable: 1
   icon: {fileID: -1419473225, guid: e4cbd86b87ee35941bebeb95a42fd7f4, type: 3}
   dropIcon: {fileID: 1954783477, guid: e4cbd86b87ee35941bebeb95a42fd7f4, type: 3}
   description: A handful of healthy cereal that fills you up and gives you energy.

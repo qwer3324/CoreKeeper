@@ -267,4 +267,51 @@ public class Appearance : MonoBehaviour
 
         Refresh();
     }
+
+    public void PlayMeleeSound()
+    {
+        switch(holder.name)
+        {
+            case "Appear_WoodenSword":
+                SoundManager.Instance.PlaySfx(SoundManager.Sfx.WoodSword);
+                break;
+            case "Appear_TinSword":
+                SoundManager.Instance.PlaySfx(SoundManager.Sfx.Sword);
+                break;
+            case "Appear_SlimeSword":
+                SoundManager.Instance.PlaySfx(SoundManager.Sfx.Sword);
+                break;
+            case "Appear_TinSledgeHammer":
+                SoundManager.Instance.PlaySfx(SoundManager.Sfx.Sword);
+                break;
+        }
+    }
+
+    public void PlayRangeSound()
+    {
+        switch(holder.name)
+        {
+            case "Appear_CupidBow":
+                SoundManager.Instance.PlaySfx(SoundManager.Sfx.CupidBow);
+                break;
+            case "Appear_GalaxiteChakram":
+                SoundManager.Instance.PlaySfx(SoundManager.Sfx.Galaxite);
+                break;
+            case "Appear_Musket":
+                SoundManager.Instance.PlaySfx(SoundManager.Sfx.Musket);
+                break;
+            case "Appear_SlimeStaff":
+                SoundManager.Instance.PlaySfx(SoundManager.Sfx.SlimeStaff);
+                break;
+            case "Appear_Slingshot":
+                SoundManager.Instance.PlaySfx(SoundManager.Sfx.Slingshot);
+                break;
+            case "Appear_WoodBow":
+                SoundManager.Instance.PlaySfx(SoundManager.Sfx.WoodBow);
+                break;
+            case "Appear_WoodCrossbow":
+                SoundManager.Instance.PlaySfx(SoundManager.Sfx.WoodBow);
+                break;
+        }
+    }
 }

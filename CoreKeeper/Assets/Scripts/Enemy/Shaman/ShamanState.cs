@@ -66,7 +66,6 @@ namespace ShamanState
         private float burnTimer = 0.5f;
         private float burnCountdown = 0f;
         private bool isBurn = false;
-        private float detectionRange = 30f;
 
         public Burn() { }
         public Burn(Enemy _enemy, StateMachine _stateMachine) : base(_enemy, _stateMachine) { }
@@ -109,7 +108,7 @@ namespace ShamanState
                 if (burnCountdown > burnTimer)
                 {
                     shaman.CreateFireTrap(targetPos);
-
+                    SoundManager.Instance.PlaySfx(SoundManager.Sfx.FireWhoosh);
                     isBurn = true;
                 }
             }
@@ -119,7 +118,6 @@ namespace ShamanState
     public class Attack : State
     {
         private Animator animator;
-        private float detectionRange = 30f;
 
 
         public Attack() { }
@@ -157,7 +155,6 @@ namespace ShamanState
         private Animator animator;
         private SpriteRenderer[] srs = new SpriteRenderer[3];
 
-        private float detectionRange = 30f;
         private float warpTimer = 0.5f;
         private float warpCountdown = 0f;
         private bool isWarp = false;
@@ -323,7 +320,6 @@ namespace ShamanMeleeState
     {
         private Animator animator;
 
-        private float detectionRange = 30f;
         private float attackRange = 3f;
 
         public Chase() { }

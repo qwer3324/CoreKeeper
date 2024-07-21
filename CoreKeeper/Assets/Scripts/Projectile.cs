@@ -27,14 +27,33 @@ public class Projectile : MonoBehaviour
     {
         Character character= collision.GetComponent<Character>();
 
-
-        Destroy(gameObject);
-
-        if (character != null) 
+        if (character != null)
         {
             character.TakeDamage(rangeDamage, transform.position);
         }
 
+        switch(gameObject.name)
+        {
+            case "GalaxiteChakramProjectile":
+                SoundManager.Instance.PlaySfx(SoundManager.Sfx.GalaxiteHit);
+                break;
+            case "CupidArrow":
+                SoundManager.Instance.PlaySfx(SoundManager.Sfx.CupidBowHit);
+                break;
+            case "MusketProjectile":
+                //SoundManager.Instance.PlaySfx(SoundManager.Sfx.);
+                break;
+            case "SlimeProjectile":
+                SoundManager.Instance.PlaySfx(SoundManager.Sfx.SlimeProjectile);
+                break;
+            case "SlingshotProjectile":
+                SoundManager.Instance.PlaySfx(SoundManager.Sfx.SlingshotHit);
+                break;
+            case "WoodArrow":
+                SoundManager.Instance.PlaySfx(SoundManager.Sfx.BowHit);
+                break;
+        }
+        Destroy(gameObject);
     }
 
     public void SetProjectile(Vector2 _shootDir, float _rangeDamage)

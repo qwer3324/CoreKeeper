@@ -27,7 +27,7 @@ public class SoundManager : SingletonBehaviour<SoundManager>
         PlayerHit = 11, MagicMirror, CrabAttack, CrabDie, CrabHit, BossSlimeAttack, BossSlimeBerserk, BossSlimeDie, BowHit, BulletHit,
         CupidBow, CupidBowHit, Fireball, FireballImpact = 25, FireWhoosh, Galaxite = 28, GalaxiteHit, GameOver, Glop, GolemAttack, GolemDie,
         LarvaHit, LarvaDie = 37, Musket = 39, SlimeAttack, SlimeDie, SlimeHit, SlimeJump, SlimeProjectile = 46, SlimeStaff, MoldTentacleAttack,
-        Slingshot, SlingshotHit, UIPlace, WoodBow, WoodSword, Hit, UIMenuSelect, GrassFootStep, SeaFootStep, MoldDungeonFootStep, MoldTentacleDie, GolemHit, GolemWakeUp
+        Slingshot, SlingshotHit, UIPlace, WoodBow, WoodSword, Hit, UIMenuSelect, GrassFootStep, SeaFootStep, MoldDungeonFootStep, MoldTentacleDie, GolemHit, GolemWakeUp, Sword
     }
 
     private new void Awake()
