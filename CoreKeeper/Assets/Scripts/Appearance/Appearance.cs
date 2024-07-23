@@ -270,7 +270,13 @@ public class Appearance : MonoBehaviour
 
     public void PlayMeleeSound()
     {
-        switch(holder.name)
+        if(holder == null)
+        {
+            SoundManager.Instance.PlaySfx(SoundManager.Sfx.Punch);
+            return;
+        }
+
+        switch (holder.name)
         {
             case "Appear_WoodenSword":
                 SoundManager.Instance.PlaySfx(SoundManager.Sfx.WoodSword);
@@ -283,6 +289,9 @@ public class Appearance : MonoBehaviour
                 break;
             case "Appear_TinSledgeHammer":
                 SoundManager.Instance.PlaySfx(SoundManager.Sfx.Sword);
+                break;
+            default:
+                SoundManager.Instance.PlaySfx(SoundManager.Sfx.Punch);
                 break;
         }
     }

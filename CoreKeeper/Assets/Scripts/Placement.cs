@@ -10,6 +10,23 @@ public class Placement : MonoBehaviour
         {
             GameObject obj = Instantiate(Inventory.Instance.dropItemPrefab, transform.position, Quaternion.identity);
             obj.GetComponent<DropItem>().SetItemData(itemData);
+
+            switch (itemData.info.name)
+            {
+                case "Wood Table":
+                case "Wood Stool":
+                case "Wood Workbench":
+                case "Wood":
+                    SoundManager.Instance.PlaySfx(SoundManager.Sfx.WoodDestroy);
+                    break;
+                case "Magic Mirror":
+                    SoundManager.Instance.PlaySfx(SoundManager.Sfx.MirrorDestroy);
+                    break;
+                default:
+                    SoundManager.Instance.PlaySfx(SoundManager.Sfx.CropsDestroy);
+                    break;
+            }
+
             Destroy(gameObject);
         }
     }
