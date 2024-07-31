@@ -27,6 +27,8 @@ public class BossSlime : Enemy
         animator.SetBool(AnimationString.isDie, true);
         IsDie = true;
 
+        SoundManager.Instance.PlaySfx(SoundManager.Sfx.BossSlimeDie);
+
         GameObject obj = Instantiate(particlePrefab, transform.position + new Vector3(0f, 2f, 0f), Quaternion.identity);
         Destroy(obj, 3f);
     }
@@ -44,5 +46,11 @@ public class BossSlime : Enemy
         }
 
         Destroy(gameObject);
+    }
+
+    public override void TakeDamage(float _damage, Vector3 _otherPos)
+    {
+        base.TakeDamage(_damage, _otherPos);
+        SoundManager.Instance.PlaySfx(SoundManager.Sfx.Hit);
     }
 }

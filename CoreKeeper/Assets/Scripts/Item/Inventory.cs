@@ -192,11 +192,12 @@ public class Inventory : SingletonBehaviour<Inventory>
             switch (_item.abilities[i].type)
             {
                 case AttributeType.Health:
-
-                        player.Heal(_item.abilities[i].value);
+                    player.Heal(_item.abilities[i].value);
+                    SoundManager.Instance.PlaySfx(SoundManager.Sfx.Drink);
                     break;
                 case AttributeType.Food:
                     player.CurrentHunger += _item.abilities[i].value;
+                    SoundManager.Instance.PlaySfx(SoundManager.Sfx.Eat);
                     break;
             }
         }
@@ -221,7 +222,6 @@ public class Inventory : SingletonBehaviour<Inventory>
                 }
             }
         }
-
         return -1;
     }
 
@@ -277,7 +277,7 @@ public class Inventory : SingletonBehaviour<Inventory>
         }
         else if (Input.GetKeyDown(KeyCode.Keypad2))
         {
-            AddItem(itemDB.Datas[8].CreateItem());
+            AddItem(itemDB.Datas[41].CreateItem());
         }
         else if (Input.GetKeyDown(KeyCode.Keypad3))
         {
@@ -293,7 +293,7 @@ public class Inventory : SingletonBehaviour<Inventory>
         }
         else if (Input.GetKeyDown(KeyCode.Keypad6))
         {
-            AddItem(itemDB.Datas[41].CreateItem());
+            AddItem(itemDB.Datas[8].CreateItem());
         }
         else if (Input.GetKeyDown(KeyCode.Keypad7))
         {
@@ -301,11 +301,11 @@ public class Inventory : SingletonBehaviour<Inventory>
         }
         else if (Input.GetKeyDown(KeyCode.Keypad8))
         {
-            AddItem(itemDB.Datas[10].CreateItem());
+            AddItem(itemDB.Datas[48].CreateItem());
         }
         else if (Input.GetKeyDown(KeyCode.Keypad9))
         {
-            AddItem(itemDB.Datas[10].CreateItem());
+            AddItem(itemDB.Datas[54].CreateItem());
         }
     }
 }

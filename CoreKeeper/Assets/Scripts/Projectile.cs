@@ -41,7 +41,7 @@ public class Projectile : MonoBehaviour
                 SoundManager.Instance.PlaySfx(SoundManager.Sfx.CupidBowHit);
                 break;
             case "MusketProjectile":
-                //SoundManager.Instance.PlaySfx(SoundManager.Sfx.);
+                SoundManager.Instance.PlaySfx(SoundManager.Sfx.BulletHit);
                 break;
             case "SlimeProjectile":
                 SoundManager.Instance.PlaySfx(SoundManager.Sfx.SlimeProjectile);
@@ -51,6 +51,9 @@ public class Projectile : MonoBehaviour
                 break;
             case "WoodArrow":
                 SoundManager.Instance.PlaySfx(SoundManager.Sfx.BowHit);
+                break;
+            case "FireProjectile":
+                SoundManager.Instance.PlaySfx(SoundManager.Sfx.FireballImpact);
                 break;
         }
         Destroy(gameObject);

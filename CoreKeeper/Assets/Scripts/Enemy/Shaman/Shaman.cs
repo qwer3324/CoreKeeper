@@ -33,6 +33,8 @@ public class Shaman : Enemy
 
     public void CreateProjectile()
     {
+        SoundManager.Instance.PlaySfx(SoundManager.Sfx.Fireball);
+
         Vector2 shootDir = (Target.transform.position - shootPivot.transform.position);
         GameObject projectile = Instantiate(missilePrefab, shootPivot.transform.position, Quaternion.identity);
         projectile.GetComponent<Projectile>().SetProjectile(shootDir, attackDamage);
@@ -54,6 +56,7 @@ public class Shaman : Enemy
             IsRange = false;
 
             currentHealth = 100f;
+            SoundManager.Instance.PlaySfx(SoundManager.Sfx.BossSlimeBerserk);
             ChangeMeleeState();
         }
         else
@@ -64,7 +67,7 @@ public class Shaman : Enemy
             isDie = true;
 
             StartCoroutine(ItemDrop(2.8f));
-
+            SoundManager.Instance.PlaySfx(SoundManager.Sfx.ShamanMeleeDeath);
             Destroy(gameObject, 3f);
         }
     }
@@ -81,5 +84,11 @@ public class Shaman : Enemy
             GameObject obj = Instantiate(Inventory.Instance.dropItemPrefab, transform.position, Quaternion.identity);
             obj.GetComponent<DropItem>().SetItemData(dropItems[index]);
         }
+    }
+
+    public override void TakeDamage(float _damage, Vector3 _otherPos)
+    {
+        base.TakeDamage(_damage, _otherPos);
+        SoundManager.Instance.PlaySfx(SoundManager.Sfx.Hit);
     }
 }

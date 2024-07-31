@@ -228,13 +228,6 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
-    functionName: SetShootPoint
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0
     functionName: ChangeHolderSprite
     data: 
     objectReferenceParameter: {fileID: 0}
@@ -247,6 +240,13 @@ AnimationClip:
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 24
+    messageOptions: 0
+  - time: 0
+    functionName: SetShootPoint
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
     messageOptions: 0
   - time: 0.16666667
     functionName: ChangeHolderSprite
@@ -264,6 +264,13 @@ AnimationClip:
     messageOptions: 0
   - time: 0.41666666
     functionName: Shoot
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.41666666
+    functionName: PlayRangeSound
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

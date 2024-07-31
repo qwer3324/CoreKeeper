@@ -103,6 +103,7 @@ namespace BossSlimeState
             renderer.transform.position = owner.transform.position;
             isDone = true;
             CoroutineHelper.StartCoroutine(CameraController.Instance.Shake(0.3f));  //  카메라 진동
+            SoundManager.Instance.PlaySfx(SoundManager.Sfx.BossSlimeAttack);
         }
 
         #region Parabola
