@@ -29,11 +29,11 @@ namespace LarvaState
         {
             base.OnEnter();
 
-            animator.SetInteger("State", 1);
-            GetRandomPointInCircle();
-            targetPos = owner.Move(targetPos, owner.CurrentMoveSpeed);
-            owner.SetDirection(targetPos);
-            isArrive = false;
+            //animator.SetInteger("State", 1);
+            //GetRandomPointInCircle();
+            //targetPos = owner.Move(targetPos, owner.CurrentMoveSpeed);
+            //owner.SetDirection(targetPos);
+            isArrive = true;
             idleCountdown = 0f;
         }
 

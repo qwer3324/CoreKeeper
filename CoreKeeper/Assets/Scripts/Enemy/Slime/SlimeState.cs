@@ -23,12 +23,12 @@ namespace SlimeState
 
         public override void OnEnter()
         {
-            GetRandomPointInCircle();
-            targetPos = owner.Move(targetPos, owner.CurrentMoveSpeed);
+            //GetRandomPointInCircle();
+            //targetPos = owner.Move(targetPos, owner.CurrentMoveSpeed);
 
             idleTimer = UnityEngine.Random.Range(idleMinTime, idleMaxTime);
             idleCountdown = idleTimer;
-            isArrive = false;
+            isArrive = true;
         }
 
         public override void OnUpdate(float deltaTime)

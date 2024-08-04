@@ -60,7 +60,7 @@ public abstract class Enemy : Character
     {
         Vector2 targetDir = (_targetPos - (Vector2)transform.position).normalized;
 
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, targetDir, _targetPos.magnitude, LayerMask.GetMask("Terrian", "Water"));
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, targetDir, (_targetPos - (Vector2)transform.position).magnitude, LayerMask.GetMask("Terrian", "Water"));
 
         if (hit.collider != null)
         {

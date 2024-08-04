@@ -32,30 +32,30 @@ namespace CrabState
 
         public override void OnEnter()
         {
-            owner.Dir = (Character.Direction)Random.Range(0, 4);
+            //owner.Dir = (Character.Direction)Random.Range(0, 4);
 
-            switch (owner.Dir)
-            {
-                case Character.Direction.Front:
-                    targetPos = owner.transform.position + new Vector3(0f, Random.Range(-minRange, -maxRange));
-                    break;
-                case Character.Direction.Back:
-                    targetPos = owner.transform.position + new Vector3(0f, Random.Range(minRange, maxRange));
-                    break;
-                case Character.Direction.Left:
-                    targetPos = owner.transform.position + new Vector3(Random.Range(-minRange, -maxRange), 0f);
-                    break;
-                case Character.Direction.Right:
-                    targetPos = owner.transform.position + new Vector3(Random.Range(minRange, maxRange), 0f);
-                    break;
-            }
+            //switch (owner.Dir)
+            //{
+            //    case Character.Direction.Front:
+            //        targetPos = owner.transform.position + new Vector3(0f, Random.Range(-minRange, -maxRange));
+            //        break;
+            //    case Character.Direction.Back:
+            //        targetPos = owner.transform.position + new Vector3(0f, Random.Range(minRange, maxRange));
+            //        break;
+            //    case Character.Direction.Left:
+            //        targetPos = owner.transform.position + new Vector3(Random.Range(-minRange, -maxRange), 0f);
+            //        break;
+            //    case Character.Direction.Right:
+            //        targetPos = owner.transform.position + new Vector3(Random.Range(minRange, maxRange), 0f);
+            //        break;
+            //}
 
-            targetPos = owner.Move(targetPos, owner.CurrentMoveSpeed);
+            //targetPos = owner.Move(targetPos, owner.CurrentMoveSpeed);
 
             idleTimer = Random.Range(idleMinTime, idleMaxTime);
             idleCountdown = idleTimer;
-            isArrive = false;
-            animator.SetInteger("State", 1);
+            isArrive = true;
+            animator.SetInteger("State", 0);
         }
 
         public override void OnUpdate(float deltaTime)
