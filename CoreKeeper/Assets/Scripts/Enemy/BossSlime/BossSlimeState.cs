@@ -47,6 +47,7 @@ namespace BossSlimeState
 
         public override void OnEnter()
         {
+            SoundManager.Instance.PlayBgm(SoundManager.Bgm.BossSlime);
             targetPos = owner.Target.transform.position;
             startPos = owner.transform.position;
             attackTimer = 0f;
@@ -83,6 +84,13 @@ namespace BossSlimeState
                     CoroutineHelper.StartCoroutine(JumpAttack());
                 }
             }
+        }
+
+        public override void OnExit()
+        {
+            base.OnExit();
+
+            SoundManager.Instance.PlayBgm(SoundManager.Bgm.Nature);
         }
 
         IEnumerator JumpAttack()

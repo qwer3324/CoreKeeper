@@ -1,5 +1,5 @@
+using System.Collections;
 using UnityEngine;
-using static SoundManager;
 
 public class SoundManager : SingletonBehaviour<SoundManager>
 {
@@ -20,7 +20,7 @@ public class SoundManager : SingletonBehaviour<SoundManager>
     AudioSource[] sfxPlayers;
     int channelIndex;
 
-    public enum Bgm { Nature, Sea, MoldDungeon, BossSlime, Shaman }
+    public enum Bgm { Nature, Sea, MoldDungeon, BossSlime = 4, Shaman }
     public enum Sfx
     {
         InventoryOpen, InventoryClose, ItemSwitchDrag, ItemSwitchDrop, MenuSelect, MenuDeny, Eat, Drink, PickUp, Punch,
@@ -76,20 +76,19 @@ public class SoundManager : SingletonBehaviour<SoundManager>
     {
         if( bgmPlayer.clip == bgmClips[(int)bgm])
         {
-            if (isPlay)
-                bgmPlayer.Play();
-            else
-                bgmPlayer.Stop();
-
+            if(bgmPlayer.isPlaying != isPlay)
+            {
+                if (isPlay)
+                    bgmPlayer.Play();
+                else
+                    bgmPlayer.Stop();
+            }
             return;
         }
 
+        bgmPlayer.Stop();
         bgmPlayer.clip = bgmClips[(int)bgm];
-
-        if (isPlay)
-            bgmPlayer.Play();
-        else
-            bgmPlayer.Stop();
+        bgmPlayer.Play();
     }
 
     public void PlaySfx(Sfx sfx)

@@ -29,6 +29,8 @@ public class BossSlime : Enemy
 
         SoundManager.Instance.PlaySfx(SoundManager.Sfx.BossSlimeDie);
 
+        SoundManager.Instance.PlayBgm(SoundManager.Bgm.Nature);
+
         GameObject obj = Instantiate(particlePrefab, transform.position + new Vector3(0f, 2f, 0f), Quaternion.identity);
         Destroy(obj, 3f);
     }
