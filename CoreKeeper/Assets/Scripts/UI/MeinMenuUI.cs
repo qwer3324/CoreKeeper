@@ -11,7 +11,7 @@ public class MeinMenuUI : MonoBehaviour
     public void GameStart()
     {
         SoundManager.Instance.PlaySfx(SoundManager.Sfx.MenuSelect);
-        SceneFader.Instance.FadeTo(1);
+        SceneFader.Instance.FadeOut(1);
     }
     
     public void GameExit()

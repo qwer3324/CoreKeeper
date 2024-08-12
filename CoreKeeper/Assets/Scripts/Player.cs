@@ -2,6 +2,7 @@ using UnityEngine.InputSystem;
 using UnityEngine;
 using System.Collections;
 using System;
+using MyFps.Utility;
 
 public class Player : Character
 {
@@ -171,7 +172,9 @@ public class Player : Character
       set; } = false;  //  UI 켜지면 못 움직이게
 
     public enum FootStep { Grass, Sand, Rock }
-    public FootStep footStep = FootStep.Grass; 
+    public FootStep footStep = FootStep.Grass;
+
+    public GameObject bloodSplattPrefab;
 
     protected override void Awake()
     {
@@ -297,6 +300,11 @@ public class Player : Character
         {
             CharacterEvents.playerDamaged?.Invoke(gameObject, -1);
         }
+
+        if(currentHealth <= 0) 
+        {
+            Die();
+        }
     }
 
     public new bool Heal(float _amount)
@@ -322,7 +330,11 @@ public class Player : Character
 
     public override void Die()
     {
-
+        isDie = true;
+        SoundManager.Instance.PlaySfx(SoundManager.Sfx.PlayerDie);
+        animator.SetBool(AnimationString.isDie, true);
+        Instantiate(bloodSplattPrefab, transform.position, Quaternion.identity);
+        SceneFader.Instance.FadeOut();
     }
     #endregion
 
@@ -441,5 +453,17 @@ public class Player : Character
                 break;
         }
         
+    }
+
+    public void Init()
+    {
+        transform.position = Vector3.zero;
+        currentHealth = MaxHealth;
+        currentHunger = MaxHunger;
+        animator.SetBool(AnimationString.isDie, false);
+        isDie = false;
+        CharacterEvents.characterHeal?.Invoke(gameObject, MaxHealth);
+        CharacterEvents.characterFood?.Invoke();
+        SetState(PlayerState.Idle);
     }
 }

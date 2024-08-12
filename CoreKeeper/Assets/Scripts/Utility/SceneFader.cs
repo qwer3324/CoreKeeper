@@ -9,6 +9,9 @@ namespace MyFps.Utility
     {
         public Image img;
         public AnimationCurve curve;
+        private float timer = 0f;
+        private float delayTime = 1f;
+        private float fadeTime = 1f;
 
         void Start ()
         {
@@ -16,16 +19,15 @@ namespace MyFps.Utility
             img.color = new Color(0f, 0f, 0f, 1f);
 
             //시작과 동시에 페이드인 효과
-            FadeIn(0.2f);
+            FadeIn();
         }
 
-        public void FadeIn(float delayTime)
+        public void FadeOut(int sceneNumber = -1)
         {
-            StartCoroutine(FadeInTime(delayTime));
+            StartCoroutine(FadeOutTime(sceneNumber));
         }
 
-        //페이드인 : 1초동안(a:1->a:0)
-        IEnumerator FadeInTime(float delayTime)
+        IEnumerator FadeOutTime(int sceneNumber)
         {
             //Fade 딜레이 타임
             if (delayTime > 0)
@@ -33,69 +35,55 @@ namespace MyFps.Utility
                 yield return new WaitForSeconds(delayTime);
             }
 
-            float countdown = 2f;
+            Color alpha = img.color;
 
-            while(countdown > 0f)
+            while(alpha.a < 1f)
             {
-                countdown -= Time.deltaTime;
-                float a = curve.Evaluate(countdown / 2f);
-                img.color = new Color(0f, 0f, 0f, a);
-                
-                yield return null;
-            }
-        }
-
-        //페이드아웃 : 1초동안(a:0->a:1)
-        IEnumerator FadeOut(string sceneName)
-        {
-            float countdown = 0f;
-
-            while(countdown < 2f)
-            {
-                countdown += Time.deltaTime;
-                float a = curve.Evaluate(countdown);
-                img.color = new Color(0f, 0f, 0f, a);
-                
+                timer += Time.deltaTime / fadeTime;
+                alpha.a = curve.Evaluate(timer);
+                img.color = alpha;
                 yield return null;
             }
 
-            //페이드 아웃 후 씬 로드
-            SceneManager.LoadScene(sceneName);
+            timer = 0f;
+
+            if (sceneNumber > -1)
+            {
+                SceneManager.LoadScene(sceneNumber);
+                FadeIn();
+            }
+            else
+            {
+                GameObject player = GameObject.FindWithTag("Player");
+
+                if (player != null) 
+                {
+                    player.GetComponent<Player>().Init();
+                    FadeIn();
+                }
+            }
         }
 
-        IEnumerator FadeOut(int sceneNum)
+        public void FadeIn()
         {
-            float countdown = 0f;
+            StartCoroutine(FadeInTime());
+        }
 
-            while (countdown < 2f)
+        IEnumerator FadeInTime()
+        {
+            yield return new WaitForSeconds(delayTime);
+
+            Color alpha = img.color;
+
+            while (alpha.a > 0f)
             {
-                countdown += Time.deltaTime;
-                float a = curve.Evaluate(countdown);
-                img.color = new Color(0f, 0f, 0f, a);
-
+                timer += Time.deltaTime / fadeTime;
+                alpha.a = curve.Evaluate(1 - timer);
+                img.color = alpha;
                 yield return null;
             }
 
-            //페이드 아웃 후 씬 로드
-            SceneManager.LoadScene(sceneNum);
-            FadeIn(0f);
-        }
-
-
-        //페이드 아웃 후 씬 로드
-        public void FadeTo(string sceneName)
-        {
-            StartCoroutine(FadeOut(sceneName));
-        }
-
-        public void FadeTo(int sceneNum)
-        {
-            StartCoroutine(FadeOut(sceneNum));
-        }
-
-        public void FadeOut()
-        {
-
+            timer = 0f;
         }
     }
 }

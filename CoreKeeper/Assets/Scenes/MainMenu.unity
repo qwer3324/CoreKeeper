@@ -991,7 +991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1166,6 +1166,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: ad88f66a7ce2c6c43ac75cba154af83f, type: 3}
   - {fileID: 8300000, guid: 42d707270b04fc54ba387932f21f716c, type: 3}
   - {fileID: 8300000, guid: f10171a8bf63eba4991f23523114393d, type: 3}
+  - {fileID: 8300000, guid: 276a37cbe61f44c4db32e4c8d2bbd237, type: 3}
   sfxVolume: 0.4
   channels: 16
 --- !u!1 &1033957797
