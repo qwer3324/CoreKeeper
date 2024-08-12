@@ -22,6 +22,9 @@ public class Placement : MonoBehaviour
                 case "Magic Mirror":
                     SoundManager.Instance.PlaySfx(SoundManager.Sfx.MirrorDestroy);
                     break;
+                case "Iron Bar":
+                    SoundManager.Instance.PlaySfx(SoundManager.Sfx.GlassDestroy);
+                    break;
                 default:
                     SoundManager.Instance.PlaySfx(SoundManager.Sfx.CropsDestroy);
                     break;

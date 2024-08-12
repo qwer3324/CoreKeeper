@@ -1,4 +1,3 @@
-using ShamanState;
 using UnityEngine;
 
 namespace ShamanState

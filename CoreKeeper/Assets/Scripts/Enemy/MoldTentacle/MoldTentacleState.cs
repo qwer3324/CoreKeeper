@@ -38,8 +38,7 @@ namespace MoldTentacleState
         {
             base.OnEnter();
 
-            animator.SetTrigger(AnimationString.attackTrigger);
-            attackTimer = 0f;
+            attackTimer = attackDelay;
         }
 
         public override void OnUpdate(float deltaTime)
@@ -78,7 +77,12 @@ namespace MoldTentacleState
             {
                 attackTimer = 0f;
 
-                animator.SetTrigger(AnimationString.attackTrigger);
+                RaycastHit2D hit = Physics2D.Raycast(owner.transform.position, dir, 5f, LayerMask.GetMask("Terrian"));
+
+                if (hit.collider == null)
+                {
+                    animator.SetTrigger(AnimationString.attackTrigger);
+                }
             }
         }
     }

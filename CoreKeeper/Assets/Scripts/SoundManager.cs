@@ -20,7 +20,7 @@ public class SoundManager : SingletonBehaviour<SoundManager>
     AudioSource[] sfxPlayers;
     int channelIndex;
 
-    public enum Bgm { Nature, Sea, MoldDungeon, BossSlime = 4, Shaman }
+    public enum Bgm { Nature, Sea, MoldDungeon, BossSlime = 4, Shaman, MainMenu }
     public enum Sfx
     {
         InventoryOpen, InventoryClose, ItemSwitchDrag, ItemSwitchDrop, MenuSelect, MenuDeny, Eat, Drink, PickUp, Punch,
@@ -28,7 +28,7 @@ public class SoundManager : SingletonBehaviour<SoundManager>
         CupidBow, CupidBowHit, Fireball, FireballImpact = 25, FireWhoosh, Galaxite = 28, GalaxiteHit, GameOver, Glop, GolemAttack, GolemDie,
         LarvaHit, LarvaDie = 37, Musket = 39, SlimeAttack, SlimeDie, SlimeHit, SlimeJump, SlimeProjectile = 46, SlimeStaff, MoldTentacleAttack,
         Slingshot, SlingshotHit, UIPlace, WoodBow, WoodSword, Hit, UIMenuSelect, GrassFootStep, SeaFootStep, MoldDungeonFootStep, MoldTentacleDie, GolemHit, GolemWakeUp, Sword, CropsDestroy, WoodDestroy,
-        MirrorDestroy = 67, ShamanMeleeDeath,
+        MirrorDestroy = 67, ShamanMeleeDeath, GlassDestroy
 
     }
 
@@ -36,10 +36,6 @@ public class SoundManager : SingletonBehaviour<SoundManager>
     {
         base.Awake();
         Init();
-    }
-    private void Start()
-    {
-        PlayBgm(Bgm.Nature, true);
     }
 
     void Init()

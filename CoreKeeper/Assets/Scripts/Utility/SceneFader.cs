@@ -92,5 +92,10 @@ namespace MyFps.Utility
         {
             StartCoroutine(FadeOut(sceneNum));
         }
+
+        public void FadeOut()
+        {
+
+        }
     }
 }

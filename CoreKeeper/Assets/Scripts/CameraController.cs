@@ -1,6 +1,7 @@
 using Cinemachine;
 using System.Collections;
 using UnityEngine;
+using static SoundManager;
 
 public class CameraController : SingletonBehaviour<CameraController>
 {
@@ -11,6 +12,11 @@ public class CameraController : SingletonBehaviour<CameraController>
     {
         base.Awake();
         noise = virtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
+    }
+
+    private void Start()
+    {
+        SoundManager.Instance.PlayBgm(Bgm.Nature);
     }
 
     public IEnumerator Shake(float _time)
