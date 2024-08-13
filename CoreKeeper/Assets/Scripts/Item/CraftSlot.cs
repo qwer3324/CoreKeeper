@@ -31,7 +31,7 @@ public class CraftSlot : MonoBehaviour, IPointerEnterHandler, IPointerExitHandle
 
             if(indexs[i] < 0)
             {
-                Debug.Log("제작 실패");
+                SoundManager.Instance.PlaySfx(SoundManager.Sfx.MenuDeny);
                 return;
             }
         }

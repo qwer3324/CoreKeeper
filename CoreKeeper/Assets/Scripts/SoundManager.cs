@@ -48,6 +48,9 @@ public class SoundManager : SingletonBehaviour<SoundManager>
         bgmPlayer.volume = bgmVolume;
         bgmPlayer.clip = bgmClips[0];
 
+        bgmPlayer.dopplerLevel = 0f;
+        bgmPlayer.reverbZoneMix = 0f;
+
         GameObject ambObject = new GameObject("AmbiencePlayer");
         ambObject.transform.parent = transform;
         ambiencePlayer = ambObject.AddComponent<AudioSource>();
@@ -55,6 +58,10 @@ public class SoundManager : SingletonBehaviour<SoundManager>
         ambiencePlayer.loop = true;
         ambiencePlayer.volume = ambienceVolume;
         ambiencePlayer.clip = ambienceClips[0];
+
+
+        ambiencePlayer.dopplerLevel = 0f;
+        ambiencePlayer.reverbZoneMix = 0f;
 
         GameObject sfxObject = new GameObject("SfxPlayer");
         sfxObject.transform.parent = transform;
@@ -65,6 +72,8 @@ public class SoundManager : SingletonBehaviour<SoundManager>
             sfxPlayers[i] = sfxObject.AddComponent<AudioSource>();
             sfxPlayers[i].playOnAwake = false;
             sfxPlayers[i].volume = sfxVolume;
+            sfxPlayers[i].dopplerLevel = 0f;
+            sfxPlayers[i].reverbZoneMix = 0f;
         }
     }
 
