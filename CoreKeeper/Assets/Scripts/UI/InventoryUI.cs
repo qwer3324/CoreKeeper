@@ -110,6 +110,7 @@ public class InventoryUI : MonoBehaviour
         {
             inventory.DeleteItem(selectIndex);
             DeselectItemSlot();
+            SoundManager.Instance.PlaySfx(SoundManager.Sfx.Trashcan);
         }
     }
 }

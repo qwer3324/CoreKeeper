@@ -10,7 +10,7 @@ public class Projectile : MonoBehaviour
     private Vector2 dir;
 
     public string rangeWeaponName;
-
+    private Character owner;
 
     private void Awake()
     {
@@ -25,11 +25,21 @@ public class Projectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Character character= collision.GetComponent<Character>();
-
-        if (character != null)
+        if (rangeWeaponName != "Monster")
         {
-            character.TakeDamage(rangeDamage, transform.position);
+            //  플레이어가 쏜거
+            owner.GetComponent<Player>().Hit(collision);
+        }
+        else
+        {
+            //  몬스터가 쏜거
+            Character character = collision.GetComponent<Character>();
+
+            if (character != null)
+            {
+                character.TakeDamage(rangeDamage, transform.position);
+            }
+
         }
 
         switch(gameObject.name)
@@ -59,8 +69,9 @@ public class Projectile : MonoBehaviour
         Destroy(gameObject);
     }
 
-    public void SetProjectile(Vector2 _shootDir, float _rangeDamage)
+    public void SetProjectile(Vector2 _shootDir, float _rangeDamage, Character _owner)
     {
+        owner = _owner;
         dir = _shootDir.normalized;
 
         float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg - 90;

@@ -19,7 +19,7 @@ public class MoldTentacle : Enemy
     {
         Vector2 shootDir = (Target.transform.position - (transform.position + (Vector3)offset));
         GameObject projectile = Instantiate(projectilePrefab, transform.position + (Vector3)offset, Quaternion.identity);
-        projectile.GetComponent<Projectile>().SetProjectile(shootDir, attackDamage);
+        projectile.GetComponent<Projectile>().SetProjectile(shootDir, attackDamage, this);
     }
 
     public override void TakeDamage(float _damage, Vector3 _otherPos)

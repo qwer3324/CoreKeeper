@@ -36,6 +36,9 @@ namespace BossSlimeState
         private bool isAttack;
         private bool isDone;
 
+        private Vector2 originPos = new Vector2(36.46f, -0.94f);
+        private float detectionDist = 50f;
+
         public Attack() { }
         public Attack(Enemy _enemy, StateMachine _stateMachine) : base(_enemy, _stateMachine) { }
 
@@ -60,6 +63,12 @@ namespace BossSlimeState
 
         public override void OnUpdate(float deltaTime)
         {
+            if ((owner.Target.transform.position - owner.transform.position).sqrMagnitude > detectionDist)
+            {
+                stateMachine.ChangeState(new Idle());
+                return;
+            }
+
             if (isAttack)
             {
                 if (isDone)
@@ -68,7 +77,14 @@ namespace BossSlimeState
 
                     if (delayTimer <= 0f)
                     {
-                        stateMachine.ChangeState(new Idle());
+                        targetPos = owner.Target.transform.position;
+                        startPos = owner.transform.position;
+                        attackTimer = 0f;
+                        delayTimer = attackDelay;
+                        isAttack = false;
+                        isDone = false;
+                        animator.SetTrigger(AnimationString.attackTrigger);
+                        owner.StopMoving();
                         return;
                     }
                 }
@@ -91,6 +107,8 @@ namespace BossSlimeState
             base.OnExit();
 
             SoundManager.Instance.PlayBgm(SoundManager.Bgm.Nature);
+            owner.transform.position = originPos;
+            owner.CurrentHealth = owner.MaxHealth;
         }
 
         IEnumerator JumpAttack()

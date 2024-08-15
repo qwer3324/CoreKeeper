@@ -8,9 +8,4 @@ public class ChangeBGM : MonoBehaviour
     {
         SoundManager.Instance.PlayBgm(bgm);
     }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        SoundManager.Instance.PlayBgm(SoundManager.Bgm.Nature);
-    }
 }

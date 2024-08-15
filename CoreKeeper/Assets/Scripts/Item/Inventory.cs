@@ -212,8 +212,9 @@ public class Inventory : SingletonBehaviour<Inventory>
         if(ItemCount <= 0)
             return -1;
 
-        for(int i = 0; i < ItemCount; ++i)
+        for(int i = 0; i < maxCapacity; ++i)
         {
+            if (Items[i] == null) continue;
             if(Items[i].id == _itemID)
             {
                 if(_amount <= Items[i].amount)

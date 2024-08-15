@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class Interaction : MonoBehaviour
 {
-    private Player player;
     private Interactive interactive;
     private BoxCollider2D col;
 
@@ -41,7 +40,6 @@ public class Interaction : MonoBehaviour
 
     private void Awake()
     {
-        player = GetComponentInParent<Player>();
         col = GetComponent<BoxCollider2D>();
     }
 

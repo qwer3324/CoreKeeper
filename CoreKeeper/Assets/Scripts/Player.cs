@@ -3,6 +3,7 @@ using UnityEngine;
 using System.Collections;
 using System;
 using MyFps.Utility;
+using UnityEngine.TextCore.Text;
 
 public class Player : Character
 {
@@ -316,8 +317,9 @@ public class Player : Character
 
         if (MaxHealth <= healAmount)
         {
+            float health = CurrentHealth;
             currentHealth = MaxHealth;
-            CharacterEvents.characterHeal?.Invoke(gameObject, MaxHealth - healAmount - _amount);
+            CharacterEvents.characterHeal?.Invoke(gameObject, MaxHealth - health);
         }
         else
         {
@@ -349,7 +351,7 @@ public class Player : Character
     {
         //  발사체 쏘기
         GameObject projectile = Instantiate(projectilePrefab, shootPivot.position, Quaternion.identity);
-        projectile.GetComponent<Projectile>().SetProjectile(shootDir, currentAttackDamage);
+        projectile.GetComponent<Projectile>().SetProjectile(shootDir, currentAttackDamage, this);
     }
     #endregion
 
@@ -420,22 +422,7 @@ public class Player : Character
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Character character = collision.GetComponent<Character>();
-
-        if (character != null)
-        {
-            float critical = UnityEngine.Random.Range(0f, 100f);
-            
-            //  크리티컬 떴을 때
-            if(critical < criticalHitChance)
-            {
-                character.TakeDamage(CurrentAttackDamage * criticalHitDamage, Vector2.right);
-            }
-            else
-            {
-                character.TakeDamage(CurrentAttackDamage, Vector2.zero);
-            }
-        }
+        Hit(collision);
     }
 
     public void PlayFootSound()
@@ -465,5 +452,25 @@ public class Player : Character
         CharacterEvents.characterHeal?.Invoke(gameObject, MaxHealth);
         CharacterEvents.characterFood?.Invoke();
         SetState(PlayerState.Idle);
+    }
+
+    public void Hit(Collider2D collision)
+    {
+        Character character = collision.GetComponent<Character>();
+
+        if (character != null)
+        {
+            float critical = UnityEngine.Random.Range(0f, 100f);
+
+            //  크리티컬 떴을 때
+            if (critical < criticalHitChance)
+            {
+                character.TakeDamage(CurrentAttackDamage * criticalHitDamage, Vector2.right);
+            }
+            else
+            {
+                character.TakeDamage(CurrentAttackDamage, Vector2.zero);
+            }
+        }
     }
 }

@@ -37,7 +37,7 @@ public class Shaman : Enemy
 
         Vector2 shootDir = (Target.transform.position - shootPivot.transform.position);
         GameObject projectile = Instantiate(missilePrefab, shootPivot.transform.position, Quaternion.identity);
-        projectile.GetComponent<Projectile>().SetProjectile(shootDir, attackDamage);
+        projectile.GetComponent<Projectile>().SetProjectile(shootDir, attackDamage, this);
     }
 
     public void CreateFireTrap(Vector2 _targetPos)
@@ -68,6 +68,7 @@ public class Shaman : Enemy
 
             StartCoroutine(ItemDrop(2.8f));
             SoundManager.Instance.PlaySfx(SoundManager.Sfx.ShamanMeleeDeath);
+            SoundManager.Instance.PlayBgm(SoundManager.Bgm.Nature);
             Destroy(gameObject, 3f);
         }
     }

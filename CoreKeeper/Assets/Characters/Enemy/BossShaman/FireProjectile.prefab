@@ -220,7 +220,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 20
   rangeDist: 3
-  rangeWeaponName: 
+  rangeWeaponName: Monster
 --- !u!50 &5840713866490097431
 Rigidbody2D:
   serializedVersion: 4
